@@ -11,6 +11,8 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Overpass+Mono:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/menuButton.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <script>document.documentElement.className = 'js';</script>
 </head>
@@ -35,21 +37,52 @@
     <main>
         <div class="message-mobile">Enliv is much beautiful in Desktop ;)</div>
         <header class="codrops-header">
-            <div class="codrops-links">
-                <a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/GeekyGlasses/" title="Previous Demo">
-                    <svg class="icon icon--arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
+            
+            <!-- <h1>Header here TO-DO</h1> -->
+            <div class="container-fluid space-between pt-4">
+                <div class="hamburger js-hover">
+                    <div class="hamburger__line hamburger__line--01">
+                        <div class="hamburger__line-in hamburger__line-in--01"></div>
+                    </div>
+                    <div class="hamburger__line hamburger__line--02">
+                        <div class="hamburger__line-in hamburger__line-in--02"></div>
+                    </div>
+                    <div class="hamburger__line hamburger__line--03">
+                        <div class="hamburger__line-in hamburger__line-in--03"></div>
+                    </div>
+                    <div class="hamburger__line hamburger__line--cross01">
+                        <div class="hamburger__line-in hamburger__line-in--cross01"></div>
+                    </div>
+                    <div class="hamburger__line hamburger__line--cross02">
+                        <div class="hamburger__line-in hamburger__line-in--cross02"></div>
+                    </div>
+                </div>
+                <a href="/index.html">
+                    <img src="images/logo.png" alt="logo" />
                 </a>
-                <a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=30373" title="Back to the article">
-                    <svg class="icon icon--drop">
-                        <use xlink:href="#icon-drop"></use>
-                    </svg>
-                </a>
+                <div class="global-menu">
+                    <div class="global-menu__wrap">
+                        <a class="global-menu__item global-menu__item--demo-1" href="index.html">Home</a>
+                        <a class="global-menu__item global-menu__item--demo-1" href="team.html">Team</a>
+                        <a class="global-menu__item global-menu__item--demo-1" href="gallery.html">Gallery</a>
+                        <a class="global-menu__item global-menu__item--demo-1" href="blog.html">Blog</a>
+                        <a class="global-menu__item global-menu__item--demo-1" href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path class="shape-overlays__path"></path>
+                    <path class="shape-overlays__path"></path>
+                    <path class="shape-overlays__path"></path>
+                </svg>
             </div>
-           <h1>Header here TO-DO</h1>
+
+
+            </div>
+            <script src="js/menuButton.js"></script>
+            <script src="js/easings.js"></script>
+            <script src="js/menuButton2.js"></script>
         </header>
-        
+
         <section class="content">
             <div class="grid grid--effect-castor">
                 <a href="#" class="grid__item grid__item--c1">
@@ -63,16 +96,16 @@
                         </div>
                     </div>
                     <div class="grid__item-caption">
-                        <h3 class="grid__item-title">anaerobic</h3>
+                        <h3 class="grid__item-title">Trip to ChandraGiri</h3>
                         <div class="column column--left">
-                            <span class="column__text">Period</span>
-                            <span class="column__text">Subjects</span>
-                            <span class="column__text">Result</span>
+                            <span class="column__text">Images</span>
+                            <span class="column__text">Photos</span>
+                            <span class="column__text">Occasion</span>
                         </div>
                         <div class="column column--right">
-                            <span class="column__text">2045</span>
-                            <span class="column__text">133456</span>
-                            <span class="column__text">Positive</span>
+                            <span class="column__text">ChandraGiri</span>
+                            <span class="column__text">10</span>
+                            <span class="column__text">Bryan Visit</span>
                         </div>
                     </div>
                 </a>
@@ -270,10 +303,54 @@
                 </a>
             </div>
         </section>
-        
 
-        <h1 class="content">Footer TO-DO</h1>
-        
+
+        <footer class="background">
+            <div class="container">
+                <div class="footer-style">
+                    <div class="col-sm-3">
+                        <img src="images/logo.png" alt="logo">
+                    </div>
+                    <div class="col-sm-3">
+                        <h6>QUICK LINKS</h6>
+                        <h6>
+                            <a href="about.html" target="_blank">About</a>
+                        </h6>
+                        <h6>
+                            <a href="contact.html" target="_blank">Contact</a>
+                        </h6>
+                        <h6>
+                            <a href="gallery.html" target="_blank">Gallary</a>
+                        </h6>
+                        <h6>
+                            <a href="team.html" target="_blank">Team</a>
+                        </h6>
+                    </div>
+                    <div class="col-sm-3">
+                        <h6>SOCIAL</h6>
+                        <h6>
+                            <a href="https://facebook.com" target="_blank">Facebook</a>
+                        </h6>
+                        <h6>
+                            <a href="https://facebook.com" target="_blank">Twitter</a>
+                        </h6>
+                        <h6>
+                            <a href="https://facebook.com" target="_blank">Instagram</a>
+                        </h6>
+                        <h6>
+                            <a href="https://facebook.com" target="_blank">LinkedIn</a>
+                        </h6>
+                    </div>
+                    <div class="col-sm-3">
+                        <h6>CONTACT</h6>
+                        <h6>Chakupat, Lalitpur</h6>
+                        <h6>contact@enlivit.com</h6>
+                        <h6>T / +977 000 000 0000</h6>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
     </main>
     <script src="js/anime.min.js"></script>
     <script src="js/main1.js"></script>

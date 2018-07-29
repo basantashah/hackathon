@@ -1,9 +1,3 @@
-.particles-js{
-  opacity: 10;
-}
-
-
-
 .background-banner {
   background-image: url("../images/background-banner.png");
   background-repeat: no-repeat;
@@ -18,22 +12,25 @@
   .background-banner a, .background-banner a:hover {
     color: #ffffff;
     text-decoration: none; }
-  .background-banner .display-flex {
+  .background-banner .particle-container {
     display: flex;
-    align-items: center;
-    justify-content: left;
-    height: 100%;
-    color: #ffffff; }
-    .background-banner .display-flex .center, .background-banner .display-flex .right {
-      flex: 1; }
-    .background-banner .display-flex h6 {
-      font-weight: 100; }
-    .background-banner .display-flex p {
-      font-weight: 100;
-      width: 110px;
-      height: auto;
-      border: 1px solid #f1f1f1;
-      padding: 10px; }
+    margin: 240px 0px 0px 50px; }
+    .background-banner .particle-container .display-flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      color: #ffffff; }
+      .background-banner .particle-container .display-flex h1 {
+        font-size: 40px; }
+      .background-banner .particle-container .display-flex h6 {
+        font-weight: 100; }
+      .background-banner .particle-container .display-flex p {
+        font-weight: 100;
+        width: 110px;
+        height: auto;
+        border: 1px solid #f1f1f1;
+        padding: 10px; }
 
 .section-margin {
   margin: 110px 0px 70px; }
@@ -61,12 +58,15 @@
       .trusted-by-background .flexbox-container .trusted-by-style h6, .trusted-by-background .flexbox-container .trusted-by-style a, .trusted-by-background .flexbox-container .trusted-by-style a:hover {
         color: #ffffff;
         text-decoration: none; }
+      .trusted-by-background .flexbox-container .trusted-by-style img {
+        width: 100%;
+        height: auto; }
     .trusted-by-background .flexbox-container .title-style {
       color: #959595;
       font-size: 18px; }
     .trusted-by-background .flexbox-container p {
       margin-bottom: 30px;
-      font-size: 24px; }
+      font-size: 20px; }
 
 .background {
   background-color: #267FBA; }
@@ -118,5 +118,12 @@
       font-size: 18px; }
     .our-services-background .our-services-style p {
       font-size: 24px; }
+
+#team-background {
+  background-color: #ffffff; }
+  #team-background p {
+    color: #000000; }
+  #team-background h2 {
+    color: #267FBA; }
 
 /*# sourceMappingURL=style.css.map */

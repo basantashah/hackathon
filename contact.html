@@ -1,5 +1,5 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,153 +23,118 @@
     <!-- Custom fonts for this template-->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" />
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="vendors/linericon/style.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-    <link rel="stylesheet" href="vendors/animate-css/animate.css">
-    <!-- main css -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-
-
 </head>
 <body class="demo-1">
-    <!-- <div class="background-banner"> -->
-        <div class="container-fluid space-between pt-4">
-            <div class="hamburger js-hover">
-                <div class="hamburger__line hamburger__line--01">
-                    <div class="hamburger__line-in hamburger__line-in--01"></div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  
+
+    <script>
+
+        particlesJS.load('particles-js', 'particles.json', function(){
+            console.log('particles.json loaded...');
+        });
+    </script>
+    
+     <div class="background-banner" id="particles-js" style="width:100%; height: 400px;">
+            <div class="container-fluid space-between pt-4" >
+                <div class="hamburger js-hover">
+                    <div class="hamburger__line hamburger__line--01">
+                        <div class="hamburger__line-in hamburger__line-in--01"></div>
+                    </div>
+                    <div class="hamburger__line hamburger__line--02">
+                        <div class="hamburger__line-in hamburger__line-in--02"></div>
+                    </div>
+                    <div class="hamburger__line hamburger__line--03">
+                        <div class="hamburger__line-in hamburger__line-in--03"></div>
+                    </div>
+                    <div class="hamburger__line hamburger__line--cross01">
+                        <div class="hamburger__line-in hamburger__line-in--cross01"></div>
+                    </div>
                 </div>
-                <div class="hamburger__line hamburger__line--02">
-                    <div class="hamburger__line-in hamburger__line-in--02"></div>
+                <a href="/index.html"><img src="images/logo.png" alt="logo" /></a>
+
+                <div class="global-menu">
+                    <div class="global-menu__wrap">
+                        <a class="global-menu__item global-menu__item--demo-1" href="index.html">Home</a>
+                        <a class="global-menu__item global-menu__item--demo-1" href="team.html">Team</a>
+                        <a class="global-menu__item global-menu__item--demo-1" href="gallery.html">Gallery</a>
+                        <a class="global-menu__item global-menu__item--demo-1" href="blog.html">Blog</a>
+                    </div>
                 </div>
-                <div class="hamburger__line hamburger__line--03">
-                    <div class="hamburger__line-in hamburger__line-in--03"></div>
-                </div>
-                <div class="hamburger__line hamburger__line--cross01">
-                    <div class="hamburger__line-in hamburger__line-in--cross01"></div>
-                </div>
-                <div class="hamburger__line hamburger__line--cross02">
-                    <div class="hamburger__line-in hamburger__line-in--cross02"></div>
-                </div>
+                <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <path class="shape-overlays__path"></path>
+                        <path class="shape-overlays__path"></path>
+                        <path class="shape-overlays__path"></path>
+                    </svg>
+                
             </div>
-            <a href="/index.html">
-                <img src="images/logo.png" alt="logo" />
-            </a>
-            <div class="global-menu">
-                <div class="global-menu__wrap">
-                    <a class="global-menu__item global-menu__item--demo-1" href="index.html">Home</a>
-                    <a class="global-menu__item global-menu__item--demo-1" href="gallery.html">Gallery</a>
-                    <a class="global-menu__item global-menu__item--demo-1" href="blog.html">Blog</a>
-                    <a class="global-menu__item global-menu__item--demo-1" href="contact.html">Contact</a>
+            <br><br><br>
+                <div>
+                        <h1 class="text-white text-center" style="align-items: center;">Contact Us</h1>
+
                 </div>
-            </div>
-            <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
-                <path class="shape-overlays__path"></path>
-                <path class="shape-overlays__path"></path>
-                <path class="shape-overlays__path"></path>
-            </svg>
-        </div>
-    <!-- </div> -->
+    </div>
     <script src="js/menuButton.js"></script>
     <script src="js/easings.js"></script>
     <script src="js/menuButton2.js"></script>
-    <!-- Here the body part starts -->
 
-
-
-
-    <section class="banner_area">
-        <div class="banner_inner d-flex align-items-center">
-            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+    <section class="contact_area p_120" style="margin: 100px;">
             <div class="container">
-                <div class="banner_content text-center">
-                    <div class="page_link">
-                        <a href="index.html">Home</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
-                    <h2>Contact Us</h2>
+                <div id="mapBox" class="mapBox" data-lat="40.701083" data-lon="-74.1522848" data-zoom="13" data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
+                    data-mlat="40.701083" data-mlon="-74.1522848">
                 </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- End of body part -->
-    <p> a</p>
-    <p> a</p>
-    <p> a</p>
-    <p> a</p>
-    <p> a</p>
-    <p> a</p>
-    <p> a</p>
-    <p> a</p>
-
-
-    <!--================Contact Area =================-->
-    <section class="contact_area p_120">
-        <div class="container">
-            <div id="mapBox" class="mapBox" data-lat="40.701083" data-lon="-74.1522848" data-zoom="13" data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
-                data-mlat="40.701083" data-mlon="-74.1522848">
-            </div>
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="contact_info">
-                        <div class="info_item">
-                            <i class="lnr lnr-home"></i>
-                            <h6>Enliv Technlogy</h6>
-                            <p>Pulchowk, Kathmandu</p>
-                        </div>
-                        <div class="info_item">
-                            <i class="lnr lnr-phone-handset"></i>
-                            <h6>
-                                <a href="#">+977 980 000 0000</a>
-                            </h6>
-                            <p>Mon to Fri 9am to 6 pm</p>
-                        </div>
-                        <div class="info_item">
-                            <i class="lnr lnr-envelope"></i>
-                            <h6>
-                                <a href="#">support@enlivit.com</a>
-                            </h6>
-                            <p>Send us your query anytime! ;)</p>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="contact_info">
+                            <div class="info_item">
+                                <i class="lnr lnr-home"></i>
+                                <h6>Enliv Information Technologies</h6>
+                                <p>Chakupat, Lalitpur</p>
+                            </div>
+                            <div class="info_item">
+                                <i class="lnr lnr-phone-handset"></i>
+                                <h6>
+                                    +977 980 000 0000
+                                </h6>
+                                <p>Mon to Fri 9am to 6 pm</p>
+                            </div>
+                            <div class="info_item">
+                                <i class="lnr lnr-envelope"></i>
+                                <h6>
+                                    support@enlivit.com
+                                </h6>
+                                <p>Send us your query anytime!</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-9">
-                    <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                    <div class="col-lg-9">
+                        <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                            <div class="col-md-12 text-right">
+                                <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
-                            </div>
-                        </div>
-                        <div class="col-md-12 text-right">
-                            <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--================Contact Area =================-->
-    
-
-
+        </section>
     <footer class="background">
         <div class="container">
             <div class="footer-style">
@@ -178,33 +143,17 @@
                 </div>
                 <div class="col-sm-3">
                     <h6>QUICK LINKS</h6>
-                    <h6>
-                        <a href="about.html" target="_blank">About</a>
-                    </h6>
-                    <h6>
-                        <a href="contact.html" target="_blank">Contact</a>
-                    </h6>
-                    <h6>
-                        <a href="gallery.html" target="_blank">Gallary</a>
-                    </h6>
-                    <h6>
-                        <a href="team.html" target="_blank">Team</a>
-                    </h6>
+                    <h6><a href="about.html" target="_blank">About</a></h6>
+                    <h6><a href="contact.html" target="_blank">Contact</a></h6>
+                    <h6><a href="gallery.html" target="_blank">Gallary</a></h6>
+                    <h6><a href="team.html" target="_blank">Team</a></h6>
                 </div>
                 <div class="col-sm-3">
                     <h6>SOCIAL</h6>
-                    <h6>
-                        <a href="https://facebook.com" target="_blank">Facebook</a>
-                    </h6>
-                    <h6>
-                        <a href="https://facebook.com" target="_blank">Twitter</a>
-                    </h6>
-                    <h6>
-                        <a href="https://facebook.com" target="_blank">Instagram</a>
-                    </h6>
-                    <h6>
-                        <a href="https://facebook.com" target="_blank">LinkedIn</a>
-                    </h6>
+                    <h6><a href="https://facebook.com" target="_blank">Facebook</a></h6>
+                    <h6><a href="https://facebook.com" target="_blank">Twitter</a></h6>
+                    <h6><a href="https://facebook.com" target="_blank">Instagram</a></h6>
+                    <h6><a href="https://facebook.com" target="_blank">LinkedIn</a></h6>
                 </div>
                 <div class="col-sm-3">
                     <h6>CONTACT</h6>
@@ -215,7 +164,5 @@
             </div>
         </div>
     </footer>
-
-    
 </body>
 </html>
