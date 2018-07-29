@@ -1,0 +1,122 @@
+.particles-js{
+  opacity: 10;
+}
+
+
+
+.background-banner {
+  background-image: url("../images/background-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+  .background-banner .space-around {
+    display: flex;
+    justify-content: space-around; }
+  .background-banner .space-between {
+    display: flex;
+    justify-content: space-between; }
+  .background-banner a, .background-banner a:hover {
+    color: #ffffff;
+    text-decoration: none; }
+  .background-banner .display-flex {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100%;
+    color: #ffffff; }
+    .background-banner .display-flex .center, .background-banner .display-flex .right {
+      flex: 1; }
+    .background-banner .display-flex h6 {
+      font-weight: 100; }
+    .background-banner .display-flex p {
+      font-weight: 100;
+      width: 110px;
+      height: auto;
+      border: 1px solid #f1f1f1;
+      padding: 10px; }
+
+.section-margin {
+  margin: 110px 0px 70px; }
+  .section-margin.flex-center {
+    display: flex;
+    justify-content: center; }
+    .section-margin.flex-center .title-style {
+      color: #959595;
+      font-size: 18px; }
+    .section-margin.flex-center p {
+      font-size: 24px; }
+
+.trusted-by-background {
+  background-color: #F8F8F8; }
+  .trusted-by-background .flexbox-container {
+    display: flex;
+    padding: 80px 0px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; }
+    .trusted-by-background .flexbox-container .trusted-by-style {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .trusted-by-background .flexbox-container .trusted-by-style h6, .trusted-by-background .flexbox-container .trusted-by-style a, .trusted-by-background .flexbox-container .trusted-by-style a:hover {
+        color: #ffffff;
+        text-decoration: none; }
+    .trusted-by-background .flexbox-container .title-style {
+      color: #959595;
+      font-size: 18px; }
+    .trusted-by-background .flexbox-container p {
+      margin-bottom: 30px;
+      font-size: 24px; }
+
+.background {
+  background-color: #267FBA; }
+  .background .footer-style {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0px; }
+    .background .footer-style h6, .background .footer-style a, .background .footer-style a:hover {
+      color: #ffffff;
+      text-decoration: none; }
+
+.why-choose-us-background {
+  background: linear-gradient(to bottom, #ffffff 9%, #F8F8F8 0%); }
+  .why-choose-us-background .choose-us-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 0px; }
+    .why-choose-us-background .choose-us-style img {
+      width: 100%;
+      height: auto; }
+    .why-choose-us-background .choose-us-style .title-style {
+      font-size: 36px; }
+    .why-choose-us-background .choose-us-style p {
+      font-size: 18px; }
+    .why-choose-us-background .choose-us-style .why-choose-us-box {
+      background-color: #92CB47;
+      padding: 40px; }
+      .why-choose-us-background .choose-us-style .why-choose-us-box h4 {
+        font-size: 24px;
+        color: #ffffff; }
+      .why-choose-us-background .choose-us-style .why-choose-us-box p {
+        font-size: 14px;
+        color: #ffffff; }
+
+.our-services-background {
+  background-color: #ffffff; }
+  .our-services-background .our-services-style {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 55px 0px; }
+    .our-services-background .our-services-style img {
+      width: 100%;
+      height: auto; }
+    .our-services-background .our-services-style .title-style {
+      color: #959595;
+      font-size: 18px; }
+    .our-services-background .our-services-style p {
+      font-size: 24px; }
+
+/*# sourceMappingURL=style.css.map */
